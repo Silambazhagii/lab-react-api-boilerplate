@@ -1,0 +1,39 @@
+article{
+  display: block;
+}
+
+.api-component {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.book-container {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.left-container {
+  text-align: left;
+}
+
+.title, .authors {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.right-container {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.authors{
+  margin-bottom: 0;
+}
